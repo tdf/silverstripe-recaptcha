@@ -28,7 +28,8 @@ class RecaptchaField extends SpamProtectorField {
 	 *
 	 * @var boolean
 	 */
-	public $useSSL = false;
+	//public $useSSL = false;
+	public $useSSL = true;
 	
 	/**
 	 * Javasript-object formatted as a string,
